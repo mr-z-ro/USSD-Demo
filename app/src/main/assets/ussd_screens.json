@@ -1,0 +1,186 @@
+{
+  "menu_0.3": {
+    "title": "Main Menu",
+    "options": [
+      "Member Menu",
+      "Secretary Menu",
+      "Chairperson Menu",
+      "Set/Change Secretary",
+      "Settings"
+    ],
+    "strict": true
+  },
+  "menu_0.3.1": {
+    "title": "Member Menu",
+    "options": [
+      "Approve requests",
+      "Max loan available",
+      "Request loan",
+      "Loan record",
+      "Repay Loan",
+      "Withdrawal",
+      "Ministatement",
+      "Group list"
+    ],
+    "strict": true
+  },
+  "menu_0.3.1.1": {
+    "title": "Approve Requests",
+    "options": [
+      "Enter Approval Code"
+    ],
+    "strict": false
+  },
+  "menu_0.3.1.1.1": {
+    "title": "Approve Requests",
+    "confirmation_message": "CODE success"
+  },
+  "menu_0.3.1.2": {
+    "title": "Max Loan Available",
+    "confirmation_message": "MAXLOAN success"
+  },
+  "menu_0.3.1.3": {
+    "title": "Request Loan",
+    "options": [
+      "Enter Loan Amount",
+      "Enter Number of Meetings"
+    ],
+    "strict": false
+  },
+  "menu_0.3.1.3.1": {
+    "title": "Request Loan Result",
+    "confirmation_message": "REQUESTLOAN success"
+  },
+  "menu_0.3.1.4": {
+    "title": "Loan Record",
+    "confirmation_message": "LOANRECORD success"
+  },
+  "menu_0.3.1.5": {
+    "title": "Repay Loan",
+    "options": [
+      "Enter the Loan Repayment Amount"
+    ],
+    "strict": false
+  },
+  "menu_0.3.1.5.1": {
+    "title": "Repay Loan Result",
+    "confirmation_message": "LOANREPAY success"
+  },
+  "menu_0.3.1.6": {
+    "title": "Withdrawal",
+    "options": [
+      "Enter the Withdrawal Amount"
+    ],
+    "strict": false
+  },
+  "menu_0.3.1.6.1": {
+    "title": "Withdrawal Result",
+    "confirmation_message": "WITHDRAWAL success"
+  },
+  "menu_0.3.1.7": {
+    "title": "Ministatment",
+    "confirmation_message": "MINISTATEMENT success"
+  },
+  "menu_0.3.1.8": {
+    "title": "Group List",
+    "confirmation_message": "GROUPLIST success"
+  },
+  "menu_0.3.2": {
+    "title": "Secretary Menu",
+    "options": [
+      "Reports",
+      "Register New Loan",
+      "Make a Payment",
+      "Add a Member",
+      "Change Member Mobile",
+      "Group Decisions",
+      "Initiate Shareout",
+      "Drop a Member",
+      "Death of Member"
+    ],
+    "strict": true
+  },
+  "menu_0.3.2.1": {
+    "title": "Group Statements Menu",
+    "options": [
+      "Meeting statements",
+      "Loan records",
+      "Group list"
+    ],
+    "strict": true
+  },
+  "menu_0.3.2.2": {
+    "title": "Register Loan",
+    "options": [
+      "Please enter member number and loan amount"
+    ],
+    "strict": false
+  },
+  "menu_0.3.2.2.1": {
+    "title": "Register Loan Result",
+    "confirmation_message": "REGISTERLOAN success"
+  },
+  "menu_0.3.2.3": {
+    "title": "Make Payment",
+    "options": [
+      "Please enter the payment amount and the phone of the recipient"
+    ],
+    "strict": false
+  },
+  "menu_0.3.2.3.1": {
+    "title": "Make Payment Result",
+    "confirmation_message": "PAYMENT success"
+  },
+  "menu_0.3.2.4": {
+    "title": "Add Member",
+    "options": [
+      "Please enter new member phone number"
+    ],
+    "strict": false
+  },
+  "menu_0.3.2.4.1": {
+    "title": "Add Member Result",
+    "confirmation_message": "ADDMEMBER success"
+  },
+  "menu_0.3.2.5": {
+    "title": "Change Mobile",
+    "options": [
+      "Please enter member number and new phone number"
+    ],
+    "strict": false
+  },
+  "menu_0.3.2.5.1": {
+    "title": "Change Mobile Result",
+    "confirmation_message": "NEWMOBILE success"
+  },
+  "menu_0.3.3": {
+    "title": "Chairperson Menu",
+    "options": [
+      "Open meeting",
+      "Close meeting",
+      "Change secretary"
+    ],
+    "strict": true
+  },
+  "menu_0.3.4": {
+    "title": "Change Secretary",
+    "options": [
+      "Please enter the member number of new group secretary"
+    ],
+    "strict": false
+  },
+  "confirmation_messages": {
+    "MAXLOAN success": "Your maximum loan request is [maximum loan available]",
+    "LOANRECORD success": "Loan record\n\nLoan date XXXXX.\nDue date XXXX (says ‘Past due’ if in past).\nAmount XXX.\nBalance XXXX.\nInterest due XXXX.\nSavings XXXX",
+    "MINISTATEMENT success": "Mini statement\n\nSaved so far XXXX.\nLoan balance XXXX.\nMeetings left of loan XXXX.\nInterest due XXXX.\nNumber of meetings in cycle XXXX",
+    "GROUPLIST success": "Member no.   Name          Mobile (last 4 digits)\nXX                XXXX           XXXXXXXXXX\nXX                XXXX           XXXXXXXXXX\nXX                XXXX           XXXXXXXXXX\nXX                XXXX           XXXXXXXXXX\nXX                XXXX           XXXXXXXXXX\nXX                XXXX           XXXXXXXXXX",
+    "CODE success": "Code received. Thank you.",
+    "REQUESTLOAN success": "Your request for a loan for [amount] for [duration] has been received",
+    "LOANREPAY success": "Payment accepted",
+    "WITHDRAWAL success": "Your request for withdrawal of [amount] has been initiated.",
+    "REGISTERLOAN success": "Your registration of member [member id] for a loan for [amount] for [duration] has been received",
+    "PAYMENT success": "The group will pay [amount] to phone [recipient_phone]",
+    "ADDMEMBER success": "Pending approval, Member #[member number] phone number will be added to group [group name]",
+    "NEWMOBILE success": "Pending approval, Member #[member number]’s phone number will be changed to [phone number]"
+  }
+}
